@@ -21,7 +21,7 @@ main {
   #weather-display-container {
     background-color: rgb(44, 44, 44);
     height: auto;
-    width: 50%;
+    width: 70%;
     border-radius: 6px;
     padding: 1rem;
     display: flex;
@@ -30,6 +30,8 @@ main {
 
     #location-input {
       padding: 0.5rem;
+      border-radius: 6px;
+      border: none;
     }
 
     #search-city-button {
@@ -54,7 +56,7 @@ main {
 
     #next-days-container {
       background-color: green;
-      height: 200px;
+      height: auto;
       width: 100%;
       border: none;
       border-radius: 6px;
@@ -65,6 +67,7 @@ main {
       .day-container {
         background-color: white;
         width: 33%;
+        height: auto;
         border-radius: 3px;
         border: none;
         padding: 0.5rem;
@@ -77,7 +80,7 @@ main {
         div {
           background-color: rgb(190, 190, 190);
           width: 100%;
-          height: 20px;
+          height: auto;
           border-radius: 3px;
         }
       }
